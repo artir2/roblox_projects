@@ -1,0 +1,36 @@
+{
+    "name": "MyGame",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Modules": {
+                "$path": "Modules"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "src": {
+                "$path": "src"
+            }
+        },
+        "StarterGui": {
+            "$className": "StarterGui",
+            "HUD": {
+                "$path": "StarterGui"
+            }
+        },
+        "Workspace": {
+            "$className": "Workspace",
+            "Map": {
+                "$path": "Workspace"
+            }
+        },
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "Tests": {
+                "$path": "Tests"
+            }
+        }
+    }
+}

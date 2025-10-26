@@ -1,0 +1,14 @@
+std = "roblox"
+
+[rules]
+empty_if = "warn"
+if_same_then_else = "warn"
+mismatched_arg_count = "warn"
+multiple_statements = "warn"
+roblox_incorrect_color3_new_bounds = "warn"
+roblox_incorrect_roact_usage = "warn"
+suspicious_reverse_loop = "warn"
+unbalanced_assignments = "warn"
+undefined_variable = "warn"
+unscoped_variables = "warn"
+unused_variable = "warn"
