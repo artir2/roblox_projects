@@ -1,4 +1,4 @@
-# Roblox Projects / Projekty Roblox
+# Roblox Projects
 
 Welcome to the **roblox_projects** repository!  
 This repository will contain **all Roblox game projects**  
