@@ -1,0 +1,12 @@
+{
+    "luau-lsp.require.mode": "relativeToFile",
+    "luau-lsp.platform.type": "roblox",
+    "luau-lsp.fflags.sync": true,
+    "files.associations": {
+        "*.lua": "luau"
+    },
+    "[luau]": {
+        "editor.defaultFormatter": "JohnnyMorganz.luau-lsp",
+        "editor.formatOnSave": true
+    }
+}
