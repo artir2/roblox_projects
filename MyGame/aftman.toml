@@ -1,0 +1,9 @@
+# Roblox Development Tools Configuration
+# For proxy environments, set these environment variables:
+# export HTTP_PROXY=http://10.144.1.10:8080/
+# export HTTPS_PROXY=http://10.144.1.10:8080/
+
+[tools]
+rojo = "rojo-rbx/rojo@7.4.1"
+selene = "Kampfkarren/selene@0.27.1"
+stylua = "JohnnyMorganz/StyLua@0.20.0"
