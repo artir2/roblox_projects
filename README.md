@@ -1,10 +1,10 @@
 # Roblox Projects / Projekty Roblox
 
 Welcome to the **roblox_projects** repository!  
-This repository will contain **all Roblox game projects** that we plan to create together with Bartek.  
+This repository will contain **all Roblox game projects**  
 
 Witamy w repozytorium **roblox_projects**!  
-To repozytorium będzie zawierało **wszystkie projekty gier Roblox**, które zamierzamy tworzyć razem z Bartkiem.
+To repozytorium będzie zawierało **wszystkie projekty gier Roblox**.
 
 ---
 
