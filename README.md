@@ -18,18 +18,19 @@ Pozwala to na przejrzyste zarządzanie wieloma projektami i utrzymanie każdego 
 
 Example structure / Przykładowa struktura:
 
+```text
 roblox_projects/
-├─ ShooterGame/ # Example game folder / Folder przykładowej gry
-│ ├─ Modules/ # Lua modules / Moduły Lua
-│ ├─ Workspace/ # Map and obstacles / Mapa i przeszkody
-│ ├─ StarterGui/ # HUD and UI / HUD i UI
-│ ├─ Tests/ # Unit tests for modules / Testy jednostkowe modułów
-│ └─ README.md # Project-specific information / Informacje o projekcie
-├─ AnotherGame/ # Another game project / Kolejny projekt gry
-│ └─ ...
-└─ README.md # This main README / Główny README
+├─ ShooterGame/           # Example game folder / Folder przykładowej gry
+│   ├─ Modules/           # Lua modules / Moduły Lua
+│   ├─ Workspace/         # Map and obstacles / Mapa i przeszkody
+│   ├─ StarterGui/        # HUD and UI / HUD i UI
+│   ├─ Tests/             # Unit tests for modules / Testy jednostkowe modułów
+│   └─ README.md          # Project-specific information / Informacje o projekcie
+├─ AnotherGame/           # Another game project / Kolejny projekt gry
+│   └─ ...
+└─ README.md              # This main README / Główny README
 
-
+```
 
 ---
 
