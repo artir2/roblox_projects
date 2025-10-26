@@ -1,0 +1,52 @@
+name: Deploy to Roblox
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:  # Allow manual triggering
+
+env:
+  GAME_ID: 81050956598295
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install Aftman
+      uses: ok-nick/setup-aftman@v0.4.2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Install Tools
+      run: aftman install
+      
+    - name: Lint Code
+      run: selene src/
+      
+    - name: Format Check
+      run: stylua --check src/
+      
+    - name: Build Game
+      run: rojo build --output game.rbxl
+      
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: roblox-game-build
+        path: game.rbxl
+        
+    # Uncomment and configure for automatic deployment
+    # - name: Deploy to Roblox (Optional)
+    #   if: github.ref == 'refs/heads/main'
+    #   env:
+    #     ROBLOX_API_KEY: ${{ secrets.ROBLOX_API_KEY }}
+    #   run: |
+    #     # This would require Roblox Open Cloud API setup
+    #     # and additional deployment tools
+    #     echo "Automatic deployment not configured yet"
+    #     echo "Download the artifact and deploy manually for now"

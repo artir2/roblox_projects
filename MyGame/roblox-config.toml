@@ -1,0 +1,32 @@
+# Roblox Game Deployment Configuration
+# Game ID: 81050956598295
+# Game URL: https://www.roblox.com/games/81050956598295/my-game
+
+# This file contains the mapping between your GitHub repository 
+# and your published Roblox game
+
+[game]
+game_id = 81050956598295
+place_id = "YOUR_PLACE_ID_HERE"  # You need to get this from Roblox Studio
+universe_id = "YOUR_UNIVERSE_ID_HERE"  # You need to get this from Creator Dashboard
+
+[deployment]
+# For manual deployment
+build_output = "build/game.rbxl"
+test_output = "build/test.rbxl"
+
+# For automated deployment (requires Roblox API credentials)
+auto_deploy = false
+target_place = "main"  # or "test" for testing
+
+[rojo]
+# Development server settings
+serve_port = 34872
+serve_address = "0.0.0.0"  # For cloud development
+
+[team]
+# Team member Roblox usernames who can access the game
+developers = [
+    "YOUR_ROBLOX_USERNAME",
+    # Add team members here
+]
